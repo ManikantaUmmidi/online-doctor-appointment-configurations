@@ -30,3 +30,8 @@ spring:
 
 server:
   port: 9090
+
+
+logging:
+  file:
+    path: spring.log
