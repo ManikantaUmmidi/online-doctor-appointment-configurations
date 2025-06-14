@@ -8,7 +8,7 @@ spring:
     name: DoctorService
 
   datasource:
-    url: jdbc:mysql://localhost:3306/prod_doc_appointment_doctor_service?useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://online-doc-appnt-db.c1eeu604q8hf.us-east-1.rds.amazonaws.com:3306/prod_doc_appointment_doctor_service?useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
