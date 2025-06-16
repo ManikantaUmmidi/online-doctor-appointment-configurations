@@ -6,8 +6,6 @@ eureka:
 spring:
   application:
     name: UserService
-  profiles:
-    active: default
   config:
     import: "optional:configserver:http://localhost:8888"
 
