@@ -9,11 +9,6 @@ eureka:
 spring:
   application:
     name: auth-service
-  profiles:
-    active: default
-  config:
-    import: "optional:configserver:54.210.172.49:8888"
-
   datasource:
     url: jdbc:mysql://my-app-db.c1eeu604q8hf.us-east-1.rds.amazonaws.com:3306/prod_doc_appointment_user_service?useSSL=false&allowPublicKeyRetrieval=true
     username: admin
