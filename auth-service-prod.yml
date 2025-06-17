@@ -4,13 +4,13 @@ jwt:
 eureka:
   client:
     service-url:
-      defaultZone: http://52.55.6.208/:8761/eureka
+      defaultZone: http://34.229.157.24/:8761/eureka
 
 spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:mysql://my-app-db.c1eeu604q8hf.us-east-1.rds.amazonaws.com:3306/prod_doc_appointment_user_service?useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://my-db.c1eeu604q8hf.us-east-1.rds.amazonaws.com:3306/prod_doc_appointment_user_service?useSSL=false&allowPublicKeyRetrieval=true
     username: admin
     password: Manikanta
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -33,7 +33,3 @@ spring:
 server:
   port: 9090
 
-
-logging:
-  file:
-    path: spring.log
